@@ -1,0 +1,55 @@
+html
+body{ 
+    background-color: coral; 
+    border:black 5px double;
+    
+}
+.titulo{
+    color: rgb(79, 0, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo2{
+    color: rgb(94, 94, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    background-color:rgb(223, 235, 65); 
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left ;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

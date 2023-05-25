@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caso2</title>
+    <link rel="stylesheet" href="style.css">
+</head >
+<body>
+  
+  <form id="formulario" action="enviado.html" method="post">
+    <div id="content">
+    <h1>Encuesta de satisfacción de los asistentes a un evento</h1>
+    <h2>Responde ala siguiente encuesta</h2>
+    <form action="submeter_formulario.html" method="post">
+        
+    <label type="text"> Nombre completo:</label>
+    <input type="text"><br><br>
+
+    <label for="Correo"> Correo electronico <input type="email"></label><br><br>
+
+    <label for="Edad"> Ingresa la edad  <input type="number"></label><br><br>
+
+    <b>Evaluacion del evento</b><br>
+    <input type="radio" name="hm"> Excelente <br>
+    <input type="radio" name="hm"> Bueno <br>
+    <input type="radio" name="hm"> Regular <br>
+    <input type="radio" name="hm"> Malo <br><br>
+        
+    <b> Aprendio algo nuevo sobre el evento</b> <br>
+    <input type="radio" name="hm"> Bastante<br>
+    <input type="radio" name="hm"> Normal <br>
+    <input type="radio" name="hm"> No mucho <br><br>
+
+    <b>Fue interesante el evento</b>  <br>
+    <input type="radio" name="hm"> Muy interesante <br>
+    <input type="radio" name="hm"> Interesante <br>
+    <input type="radio" name="hm"> No fue interesante <br><br>
+
+    <b>Como fue el trato que recibio</b>  <br>
+    <input type="radio" name="hm"> Excelente <br>
+    <input type="radio" name="hm"> Bueno <br>
+    <input type="radio" name="hm"> Regular <br>
+    <input type="radio" name="hm"> Malo <br><br>
+
+    <b> Encontro lo que necesitaba en el evento</b>  <br>
+    <input type="checkbox" name="tx"> Si <br>
+    <input type="checkbox"  name="tx"> No <br><br>
+        
+    
+    <b> Volveria a asistir a otro evento como este</b>  <br>
+    <input type="checkbox" name="tx"> Si <br>
+    <input type="checkbox"  name="tx"> No <br><br>
+    
+    
+    <label> Comentario</label><br>
+    <textarea id="contenido" name="comment" cols="30" rows="5">Ingresa aqui el mensaje...</textarea><br>
+
+    <input type="submit" value="Enviar respuestas">
+    </form>
+    </div>
+</form>
+    
+
+</body>
+</html>
+

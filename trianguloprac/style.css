@@ -1,0 +1,18 @@
+    body {
+    background-color: rgb(226, 211, 169);
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a8c8ca;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(216, 210, 210, 0.1);
+}
+.container form {
+    background-color: rgb(243, 167, 167);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #807a7a;
+    border-radius: 3px;
+}

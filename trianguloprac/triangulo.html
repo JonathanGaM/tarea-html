@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triángulo</title>
+    <script src="./hola.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Triángulo</h1>
+        <form id="triangle-form">
+            <label for="side1">Lado 1:</label>
+            <input type="number" name="side1" id="side1" required>
+            <br>
+            <label for="side2">Lado 2:</label>
+            <input type="number" name="side2" id="side2" required>
+            <br>
+            <label for="side3">Lado 3:</label>
+            <input type="number" name="side3" id="side3" required>
+            <br>
+            <button type="button" onclick="calcularArea()">Área</button>
+            <button type="button" onclick="calcularPerimetro()">Perímetro</button>
+            <button type="button" onclick="TipoTriangulo()">Tipo de Triángulo</button>
+            <button type="button" onclick="borrarPrimeraFila()">Borrar</button>
+        </form>
+        <div id="result"></div>
+        <h2>Historial</h2>
+        <table id="history">
+            <tbody id="history-body"></tbody>
+        </table>
+    </div>
+    <script src="hola.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversión de Pesos a Dólares</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./hola.js"></script>
+</head>
+<body>
+    <h1 class="centrado">Conversión de Pesos a Dólares</h1>
+    <div class="container">
+    <form id="conversion-form">
+        <label for="pesos">Pesos:</label>
+        <input type="number" id="pesos" step="0.01" placeholder="Ingrese la cantidad de pesos" required>
+        <br><br>
+        <label for="dolares">Dólares:</label>
+        <input type="number" id="dolares" step="0.01" placeholder="Ingrese la cantidad de dólares" required>
+        <br><br>
+        <label for="tasa-cambio">Tasa de Cambio:</label>
+        <input type="number" id="tasa-cambio" step="0.01" placeholder="Ingrese la tasa de cambio" required>
+        <br><br>
+        <button type="button" onclick="convertir()">Convertir</button>
+        <button type="button" onclick="limpiar()">Limpiar</button>
+    </form>
+    <div id="result"></div>
+    <div id="resultado"></div>
+    <script src="hola.js"></script>
+</body>
+</html>

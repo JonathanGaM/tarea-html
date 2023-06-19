@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica PHP 3D - Formulario de Registro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="result-style.css">
+    <script src="hola.js"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="form-box">
+        <h1>Registro de Usuario</h1>
+        <form action="login.php" method="post">  
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="apellidopa">Apellido paterno:</label>
+        <input type="text" id="apellidopa" name="apellidopa" required><br><br>
+        <label for="apellidoma">Apellido materno:</label>
+        <input type="text" id="apellidoma" name="apellidoma" required><br><br>
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha" required><br><br>
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+        <label for="usuario">Nombre de usuario:</label>
+        <input type="text" id="usuario" name="usuario" required onblur="verificarUsuario()"><br><br>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required onblur="verificarContrasena()"><br><br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required><br><br>
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+        </select><br><br>
+        <input type="submit" value="Registrar">
+        </form>
+      </div>
+    </div>
+</body>
+</html>
+
+
+

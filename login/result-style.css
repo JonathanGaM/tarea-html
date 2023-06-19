@@ -1,0 +1,15 @@
+.result-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  .result-table td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
